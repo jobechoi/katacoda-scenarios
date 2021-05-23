@@ -1,6 +1,6 @@
 {
   "title": "Life of a Pod",
-  "description": "Create a Pod and Scale It",
+  "description": "Create a Pod then Scale It",
   "difficulty": "Beginner",
   "time": "25 minutes",
   "details": {
@@ -54,7 +54,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal-split"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "minikube-running"
