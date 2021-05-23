@@ -1,25 +1,20 @@
-In this scenario, you did the following
-
-** Start the cluster components and download the Kubectl CLI.
+In this scenario, you learned how to do the following
 
 `minikube start --wait=false`
-
-** Check Nodes 
+** Start the cluster components and download the Kubectl CLI.
 
 `kubectl get nodes`
-
-** Deployment resource to launch a single container of nginx
+** Check Nodes 
 
 `kubectl create deployment nginx --image=nginx`
-
-** Check Deployment
+** Deployment resource to launch a single container of nginx
 
 `kubectl get pods`
-
-** Create a Horizontal Pod Autoscaler for Deployment
+** Check Deployment
 
 `kubectl autoscale deployment nginx --cpu-percent=50 --min=1 --max=10`
-
-** Check status of autoscaler
+** Create a Horizontal Pod Autoscaler for Deployment
 
 `kubectl get hpa`
+** Check status of autoscaler
+
